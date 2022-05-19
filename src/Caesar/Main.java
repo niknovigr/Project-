@@ -2,7 +2,7 @@ package Caesar;
 
 public class Main {
     public static void main(String[] args) {
-        alphabet();
+
     }
 
     public static void alphabet() {
@@ -49,7 +49,6 @@ public class Main {
         alphabet[39] = '?';
         for (int i = 0; i < alphabet.length; i++) {
             System.out.println(alphabet[i]);
-
         }
     }
 }
